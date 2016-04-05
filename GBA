@@ -1,0 +1,5 @@
+git clone --bare https://githost.org/jsemu3/gba
+cd *gba*
+git push --mirror https://github.com/gamingunblockedchannel43/gba
+cd ..
+rm -rf gba
